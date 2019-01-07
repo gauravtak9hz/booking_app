@@ -32,7 +32,7 @@
             "id": 4,
             "startTime": "2017-12-15T09:00:00+11",
             "endTime": "2017-12-15T23:00:00+11",
-            "vehicleId": 14,
+            "vehicleId": 19,
             "podId": 6,
             "estimatedCost": 123.9,
             "fuelPin": "12345678"
@@ -42,7 +42,7 @@
             "startTime": "2017-12-15T09:00:00+11",
             "endTime": "2017-12-16T19:00:00+11",
             "vehicleId": 15,
-            "podId": 7,
+            "podId": 9,
             "estimatedCost": 123.9,
             "fuelPin": "12345678",
             "freeKmsTotal": 0.3

@@ -17,7 +17,8 @@
     <string name="msg_please_wait_vehicles_data">Please wait vehicles data and pod data is getting loaded...</string>
     <string name="msg_loading">Loading</string>
     <string name="msg_loading_json">Loading data...</string>
-    <string name="msg_details_not_available">Booking details is not available at this moment,please try again later.</string>
+    <string name="msg_details_not_available">Vehicle details is not available for this booking at this moment,please try again later.</string>
+    <string name="msg_details_not_available1">Pod details is not available for this booking at this moment,please try again later.</string>
 
     <string name="dummy_value_hayburn_avenue_near_avenue">Hayburn Avenue near Avenue</string>
     <string name="value_rockdale">Rockdale</string>

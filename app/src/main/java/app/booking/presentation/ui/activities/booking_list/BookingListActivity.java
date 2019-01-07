@@ -189,10 +189,15 @@ public class BookingListActivity extends AppCompatActivity implements OnBookingC
         }
         getVehicleAndPodData(position);
 
-        if(vehicleSelected==null || podSelected==null)
+        if(vehicleSelected==null)
         {
             CommonUtil.showSnackbar(BookingListActivity.this,getString(R.string.msg_details_not_available));
              return; //exiting the execution because vechicle or pod details is not available for the clicked booking
+        }
+        if(podSelected==null)
+        {
+            CommonUtil.showSnackbar(BookingListActivity.this,getString(R.string.msg_details_not_available1));
+            return; //exiting the execution because vechicle or pod details is not available for the clicked booking
         }
         VehicleBooking bookingSelected = vehicleBookingList.getVehicleBookings().get(position);
         Intent intent = new Intent(BookingListActivity.this, MyBookingDetailsActivity.class);
@@ -203,11 +208,13 @@ public class BookingListActivity extends AppCompatActivity implements OnBookingC
     }
 
     private void getVehicleAndPodData(int position) {
+         vehicleSelected = null;
+         podSelected = null;
         int vehicleId = vehicleBookingList.getVehicleBookings().get(position).getVehicleId();
         int podId = vehicleBookingList.getVehicleBookings().get(position).getPodId();
         for(Vehicle vehicle:vehiclesList.getVehicles())
         {
-            if(vehicle.getId()==vehicleId)
+            if(vehicle.getId().toString().equals(vehicleId+""))
             {
                 vehicleSelected = vehicle;
                 break;
@@ -215,7 +222,7 @@ public class BookingListActivity extends AppCompatActivity implements OnBookingC
         }
         for(Pod pod:podsList.getPods())
         {
-            if(pod.getId()==podId)
+            if(pod.getId().toString().equals(podId+""))
             {
                 podSelected = pod;
                 break;
