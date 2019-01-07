@@ -43,7 +43,10 @@ public class CommonUtil {
     }
     public static String getDateFromDateValue(String dateValue)
     {
-        DateFormat originalFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss",Locale.getDefault());
+        //get the time and date with device time zone setting with the parsing of given format
+
+
+        DateFormat originalFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX",Locale.getDefault());
         DateFormat targetFormat = new SimpleDateFormat("E MMM dd");
         Date date = null;
         try {
@@ -57,7 +60,10 @@ public class CommonUtil {
 
     public static String getTimeFromDateValue(String dateValue)
     {
-        DateFormat originalFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX", Locale.ENGLISH);
+        //get the time and date with device time zone setting with the parsing of given format
+
+
+        DateFormat originalFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX", Locale.getDefault());
         DateFormat targetFormat = new SimpleDateFormat("hh:mm a");
         Date date = null;
         try {
@@ -70,7 +76,10 @@ public class CommonUtil {
     }
     public static String getDateTimeFromDateValue(String dateValue)
     {
-        DateFormat originalFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss",Locale.getDefault());
+        //get the time and date with device time zone setting with the parsing of given format
+
+
+        DateFormat originalFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssX",Locale.getDefault());
         DateFormat targetFormat = new SimpleDateFormat("EEEE MMM dd, hh:mm a");
         Date date = null;
         try {
