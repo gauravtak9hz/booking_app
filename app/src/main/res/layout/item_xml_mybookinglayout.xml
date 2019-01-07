@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/list_item"
+    android:paddingBottom="14dp"
+    android:paddingLeft="14dp"
+    android:paddingRight="14dp"
+    android:paddingTop="14dp">
+
+
+    <TextView
+        android:id="@+id/tv_from_to_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical"
+        android:text="Wed 13 Dec"
+        android:textColor="@color/text_color_blue_dark"
+        android:textSize="@dimen/date_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_from_to_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:gravity="right"
+        android:drawableRight="@drawable/next"
+        android:drawablePadding="8dp"
+        android:text="3:30 pm - 5:30 pm"
+        android:textColor="@color/text_color_grey_light"
+        android:textSize="@dimen/time_text_size" />
+</LinearLayout>
+
+
+
+
+
+

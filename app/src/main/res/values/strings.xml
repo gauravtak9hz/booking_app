@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Booking</string>
+
+    <string name="label_my_bookings">My Bookings</string>
+    <string name="label_upcoming">Upcoming</string>
+    <string name="label_back">Back</string>
+    <string name="label_booking_details">Booking Details</string>
+    <string name="label_starts">Starts</string>
+    <string name="label_ends">Ends</string>
+    <string name="label_fuel_pin">Fuel Pin</string>
+    <string name="label_duration">Duration</string>
+    <string name="label_estimated_cost">Estimated Cost</string>
+    <string name="label_value_no_free_kms_included">(No free kms included)</string>
+    <string name="label_value_free_kms_included">free kms included)</string>
+    <string name="label_value_free_km_included">free km included)</string>
+
+    <string name="msg_please_wait_vehicles_data">Please wait vehicles data and pod data is getting loaded...</string>
+    <string name="msg_loading">Loading</string>
+    <string name="msg_loading_json">Loading data...</string>
+    <string name="msg_details_not_available">Booking details is not available at this moment,please try again later.</string>
+
+    <string name="dummy_value_hayburn_avenue_near_avenue">Hayburn Avenue near Avenue</string>
+    <string name="value_rockdale">Rockdale</string>
+    <string name="value_rina_the_yaris">Rina the Yaris</string>
+    <string name="value_cm57zy">CM57ZY</string>
+    <string name="value_na">NA</string>
+
+</resources>

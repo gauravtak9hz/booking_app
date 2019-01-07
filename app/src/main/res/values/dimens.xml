@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="date_text_size">13sp</dimen>
+    <dimen name="time_text_size">12sp</dimen>
+    <dimen name="text_title_size">15sp</dimen>
+    <dimen name="text_sub_title_size">14sp</dimen>
+    <dimen name="text_normal_size">13sp</dimen>
+    <dimen name="text_normal_size_1">13sp</dimen>
+    <dimen name="text_price_size_big">17sp</dimen>
+    <dimen name="initial_margin_left">10dp</dimen>
+    <dimen name="initial_margin_right">10dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="padding_top">12dp</dimen>
+    <dimen name="vehicle_image_size">60dp</dimen>
+    <dimen name="padding_left">10dp</dimen>
+    <dimen name="padding_right">10dp</dimen>
+    <dimen name="toolbar_title_size">17sp</dimen>
+    <dimen name="toolbar_back_text_size">16sp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_between_views">10dp</dimen>
+</resources>
